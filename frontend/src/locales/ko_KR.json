@@ -1,0 +1,25 @@
+{
+  "main": {
+    "subject" : "바라보다트립",
+    "login" : "로그인",
+    "login_out" : "로그아웃",
+    "lang_type":"언어",
+    "selectlang" : "한국어",
+    "product" : "상품리스트",
+    "qa" : "고객센터",
+    "kpop_tour":"K-POP 여행",
+    "theme_tour":"테마 여행",
+    "event":"이벤트",
+    "test":"Kpop 투어",
+    "kpop_info":"K-POP 소식"
+  },
+  "product": {
+    "product_nm" : "상품명",
+    "domestic_travel" : "국내 여행",
+    "product_info" : "상품정보",
+    "product_quantity" :"구매 수량",
+    "total_product_price" :"총 상품금액"    
+  }
+  
+}
+

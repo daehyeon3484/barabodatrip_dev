@@ -1,0 +1,28 @@
+ver : "100", // 상용 V2
+        mid : process.env.VUE_APP_ALIPAY_MID, // "P00000000000", // P12000000221
+        mname : "ddp", //가맹점명 (영문만가능)
+        servicetype : payType == 'A' ? process.env.VUE_APP_ALIPAY_SERVICE_TYPE : VUE_APP_WECHARPAY_SERVICE_TYPE, // alipay : S000, wechatpay : S001
+        refno : out_trade_no, // 거래키 생성
+        reqcur : "CNY", // 결재통화
+        reqamt : 1, // 결재총 금액
+        vat : 0, // 부가세
+        buyername : 'testname', 
+        tel : '0212345678',
+        email : memId,
+        product : "testproduct", // 상품명
+        trade_information : {
+            trade_information
+        }, 
+        // 페이별 구분해야 함. 포멧 틀림
+        refer_url : process.env.VUE_DDP_WEB_URL,
+        returnurl : process.env.VUE_APP_PAY_RETURN_URL, 
+        statusurl : process.env.VUE_APP_PAY_STATUS_URL, 
+        param1 : "",
+        param2 : "",
+        param3 : "",
+        fgkey : "", 
+        reqtype : "P", // 요청타입 (P: PC, M: M
+        restype : "JSON", // 응답타입 (PAGE or JSON) 
+        insmonth : "",
+        expiretime : "",
+        walletId : ""
